@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleCoordinates", "VehicleCoordinates.csproj", "{B544FF6B-0760-4B90-AD5D-75AFCCAB7144}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B544FF6B-0760-4B90-AD5D-75AFCCAB7144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B544FF6B-0760-4B90-AD5D-75AFCCAB7144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B544FF6B-0760-4B90-AD5D-75AFCCAB7144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B544FF6B-0760-4B90-AD5D-75AFCCAB7144}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6479B836-F2F5-44CC-84AB-B0A399E3610C}
+	EndGlobalSection
+EndGlobal
