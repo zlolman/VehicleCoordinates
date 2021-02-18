@@ -31,7 +31,10 @@ namespace VehicleCoordinates
         public MainForm(IRepository _repository)
         {
             repository = _repository;
-            InitializeComponent();            
+            InitializeComponent();
+            ToolStripMenuItem aboutItem = new ToolStripMenuItem("О программе");
+            aboutItem.Click += aboutItem_Click;
+            menuStrip1.Items.Add(aboutItem);
             markers = new GMapOverlay("vehicles");
             dragdropOverlay = new GMapOverlay("dragdrop");
         }
@@ -126,6 +129,10 @@ namespace VehicleCoordinates
                 gMapControl.Overlays.Add(markers);
                 repository.Update(coordinate);
             }            
+        }
+        void aboutItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Двойной щелчок ЛКМ - поставить маркер\nПКМ над меркером - удалить маркер\nУдерживать ЛКМ над маркером - переместить маркер\nУдерживать ПКМ над картой - переместить карту");
         }
     }
 }
